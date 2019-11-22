@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    // font-family: 'Raleway', sans-serif;
+}
+
+.ma{
+    position: relative;
+    overflow: hidden;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    // width: 100%;
+}
+
+
+.container-wrap{
+    max-width: 80%;
+    margin: 0 auto;
+}
+

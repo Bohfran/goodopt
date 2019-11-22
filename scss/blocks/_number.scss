@@ -1,0 +1,15 @@
+.number{
+
+    &-wrap{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+
+    &-text{
+        display: flex;
+        font-size: 33px;
+        align-items: center;
+       
+    }
+}

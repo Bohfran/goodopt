@@ -1,0 +1,152 @@
+.header{
+
+    &-block{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 130px;
+        height: 720px;
+
+        &_acustic{
+            height: 550px;
+            width: 550px;
+            background-color: #36b2f2;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &_two-text{
+            font-size: 25px;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 80px;
+        }
+    }
+    
+    &-bg{
+        position: absolute;
+        z-index: -1;
+        margin: 0 auto;
+        transform: translate(-50%, -50%);
+        left: 47%;
+        top: 37%;
+    }
+
+    &-phone{
+        margin-bottom: 127px;
+    }
+
+    &-phone a{
+        font-size: 30px;
+        text-decoration: none;
+        color: #000;
+    }
+
+    &-text{
+        margin-bottom: 150px;
+         &_big{
+            font-size: 83px;
+            text-transform: uppercase;
+        }
+
+        &_small{
+            font-size: 30px;
+            
+        }
+    }
+
+
+  
+
+   
+}
+
+.btn{
+    // display: flex;
+    background-color: #36b2f2;
+    padding: 27px 24px;
+    width: 240px;
+    display: flex;
+}
+
+
+.link-button{
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+
+}
+
+.strila{
+  
+    align-items: center;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+.jbl{
+    background-color: #fed700;
+    position: absolute;
+    height: 280px;
+    width: 280px;
+    top: -10%;
+
+}
+
+.jbl img{
+    position: absolute;
+    width: 121%;
+    top: -15%;
+    left: -10%;
+
+}
+
+.naush{
+    background-color: #fed700;
+    position: absolute;
+    height: 175px;
+    width: 175px;
+    left: -20%;
+    top: 48%;
+}
+
+.naush img{
+    position: absolute;
+    width: 96%;
+    top: -18%;
+    left: 3%;
+}
+
+.watch{
+    background-color: #fed700;
+    position: absolute;
+    height: 192px;
+    width: 192px;
+    top: 87%;
+}
+
+.watch img{
+    position: absolute;
+    width: 137%;
+    left: -19%;
+    top: -28%;
+}
+
+.digital{
+    position: absolute;
+    left: -45%;
+    top: 85%;
+}
+
+
+@media (max-width: 1350px){
+    .header-block_acustic{
+        left: 9%;
+    }
+}

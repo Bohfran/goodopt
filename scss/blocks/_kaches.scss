@@ -1,0 +1,28 @@
+.kaches{
+
+    &-title{
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+
+    &-block{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        &_item{
+            max-width: 300px;
+            text-align: center;
+
+            &:hover{
+                background-color: #36b2f2;
+                color: #fff;
+                box-shadow: 0 0 10px #36b2f2;
+                
+            }
+        }
+    }
+
+    
+}
